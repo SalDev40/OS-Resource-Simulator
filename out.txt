@@ -1,0 +1,61 @@
+
+PID: 3 Started at: 0 ms
+Process Table: 
+
+PID: 5 Started at: 3 ms
+Process Table: 
+PID: 3 , STATE: RUNNING
+
+PID: 7 Started at: 5 ms
+Process Table: 
+PID: 3 , STATE: RUNNING
+PID: 5 , STATE: READY
+
+PID: 9 Started at: 8 ms
+Process Table: 
+PID: 3 , STATE: RUNNING
+PID: 5 , STATE: READY
+PID: 7 , STATE: READY
+
+PID: 11 Started at: 13 ms
+Process Table: 
+PID: 3 , STATE: RUNNING
+PID: 5 , STATE: READY
+PID: 7 , STATE: READY
+PID: 9 , STATE: READY
+
+Process: 7 terminated at time: 1180 ms
+Process Table: 
+PID: 9 , STATE: RUNNING
+PID: 11 , STATE: READY
+PID: 3 , STATE: READY
+PID: 5 , STATE: READY
+PID: 7 , STATE: TERMINATED
+
+Process: 5 terminated at time: 9250 ms
+Process Table: 
+PID: 9 , STATE: RUNNING
+PID: 3 , STATE: BLOCKED
+PID: 11 , STATE: READY
+PID: 5 , STATE: TERMINATED
+
+Process: 9 terminated at time: 9270 ms
+Process Table: 
+PID: 11 , STATE: RUNNING
+PID: 3 , STATE: BLOCKED
+PID: 9 , STATE: TERMINATED
+
+Process: 11 terminated at time: 9689 ms
+Process Table: 
+PID: 3 , STATE: BLOCKED
+PID: 11 , STATE: TERMINATED
+
+Process: 3 terminated at time: 12359 ms
+PID: 3 , STATE: TERMINATED
+
+REPORT: 
+Simulated Time: 12359 ms
+SSD ACCESSES: 90
+Completed Processes: 5
+Average number of busy cores: 0.462821
+SSD utilization: 0.00283194
